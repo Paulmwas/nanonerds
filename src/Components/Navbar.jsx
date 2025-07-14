@@ -54,10 +54,10 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-purple-800 shadow-lg' : 'bg-purple-900/90'}`}>
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={Logo} alt="STEM Logo" className="h-10" />
+            <img src={Logo} alt="STEM Logo" className="h-18" />
           </div>
 
           {/* Navigation Links - Desktop */}
