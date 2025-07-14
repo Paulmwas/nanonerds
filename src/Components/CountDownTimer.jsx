@@ -4,7 +4,7 @@ const CountdownTimer = () => {
   // Memoize the launch date calculation
   const launchDate = useMemo(() => {
     const date = new Date();
-    date.setDate(date.getDate() + (5 - date.getDay() + 7) % 7); // Next Friday
+    date.setDate(date.getDate() + (date.getDay() + 6) % 10); // Next Friday
     date.setHours(0, 0, 0, 0); // Set to midnight
     return date;
   }, []);
