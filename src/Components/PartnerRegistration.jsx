@@ -28,9 +28,9 @@ const PartnerRegistration = () => {
       // Set up your EmailJS service (see setup instructions below)
       await emailjs.sendForm(
         'service_dc1z5ks', 
-        'template_ago2s7j', 
+        'template_yx3ye0s', 
         formRef.current, 
-        '24Q_zMm7lGY6qB-UN'
+        'Byzsej9CGvGUM6QlW'
       );
       
       setSubmitStatus('success');
@@ -170,7 +170,7 @@ const PartnerRegistration = () => {
                 className="inline-flex items-center justify-center px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-full shadow-lg transform transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
               >
                 <FontAwesomeIcon icon={faHandshake} className="mr-3" />
-                {isSubmitting ? 'Submitting...' : 'Submit Partnership Request'}
+                {isSubmitting ? 'Submitting...' : 'Submit Request'}
               </button>
             </div>
           </div>
