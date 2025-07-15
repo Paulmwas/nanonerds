@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const MissionSection = () => {
   const [missionText, setMissionText] = useState('');
-  const fullMissionText = "To train 1000+ students and trainers in cutting-edge STEM disciplines through hands-on learning experiences.";
+  const fullMissionText = "To equip children from underserved communities with critical tech skills like coding, robotics, and cybersecurity in a fun, accessible way.";
   
   // Initialize scroll animations
   useEffect(() => {
@@ -81,8 +81,7 @@ const MissionSection = () => {
           </div>
           <div className="md:w-2/3 p-8">
             <blockquote className="text-lg md:text-xl italic text-gray-700 leading-relaxed">
-              "To ignite a lifelong passion for science, technology, engineering, and mathematics 
-              in every child, empowering the next generation of innovators."
+              "A future where every child, regardless of background, has the tools and skills to thrive in a tech-driven world."
             </blockquote>
           </div>
         </div>
@@ -99,7 +98,7 @@ const MissionSection = () => {
             />
             <h3 className="text-2xl font-bold text-white mb-4">Our Motto</h3>
             <p className="text-3xl md:text-4xl font-bold text-purple-200">
-              Inspiring Young Minds, <span className="text-yellow-300">Building Bright Futures.</span>
+              Empowering Future <span className="text-yellow-300">Innovators</span>
             </p>
           </div>
         </div>

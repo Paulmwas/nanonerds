@@ -1,3 +1,4 @@
+import Contact from "../Components/Contact"
 import CountdownTimer from "../Components/CountDownTimer"
 import Curriculum from "../Components/Curriculum"
 import Footer from "../Components/Footer"
@@ -22,6 +23,7 @@ const Home = () => {
         <Team/>
         <JoinUs/>
         <PartnerRegistration/>
+        <Contact/>
         <Footer/>
     </div>
   )
