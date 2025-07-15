@@ -27,10 +27,10 @@ const PartnerRegistration = () => {
     try {
       // Set up your EmailJS service (see setup instructions below)
       await emailjs.sendForm(
-        'service_dppohsk', 
-        'template_w5c1shb', 
+        'service_dc1z5ks', 
+        'template_ago2s7j', 
         formRef.current, 
-        'yzO6ymVXWjGwO81VA'
+        '24Q_zMm7lGY6qB-UN'
       );
       
       setSubmitStatus('success');
