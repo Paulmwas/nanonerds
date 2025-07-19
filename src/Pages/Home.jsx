@@ -9,6 +9,7 @@ import MissionSection from "../Components/Mission"
 import Navbar from "../Components/Navbar"
 import PartnerRegistration from "../Components/PartnerRegistration"
 import Team from "../Components/Team"
+import TrainerTraining from "../Components/TrainerTraining"
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
         <Gallery/>
         <Team/>
         <JoinUs/>
+        <TrainerTraining/>
         <PartnerRegistration/>
         <Contact/>
         <Footer/>

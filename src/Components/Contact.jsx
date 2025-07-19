@@ -67,10 +67,10 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-gray-900">Email Us</h3>
                   <p className="mt-1">
                     <a 
-                      href="mailto:NanoNerds@proton.me" 
+                      href="mailto:Kidtech Innovators@proton.me" 
                       className="text-gray-600 hover:text-purple-600 transition-colors"
                     >
-                      NanoNerds@proton.me
+                      Kidtech Innovators@proton.me
                     </a>
                   </p>
                 </div>

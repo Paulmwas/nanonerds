@@ -15,10 +15,10 @@ const Footer = () => {
               <img src={Logo} alt="STEM Logo"                width={32} 
                 height={32} 
                 className="w-8 h-8 rounded-full mr-2 object-contain" />
-              NanoNerds
+              Kidtech Innovators
             </h3>
             <p className="text-gray-300 mb-4">
-              Empowering Future Innovators through cutting-edge STEM education and nanotechnology exploration.
+              Empowering Future Innovators through cutting-edge STEM education and early talent identification and exploitation.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/company/108195362" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-300 transition-colors">
@@ -65,8 +65,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="text-purple-400 mr-3" />
-                <a href="mailto:NanoNerds@proton.me" className="text-gray-300 hover:text-purple-300 transition-colors">
-                  NanoNerds@proton.me
+                <a href="mailto:Kidtech Innovators@proton.me" className="text-gray-300 hover:text-purple-300 transition-colors">
+                  kidtechinnovators@proton.me
                 </a>
               </li>
             </ul>
@@ -79,7 +79,7 @@ const Footer = () => {
         {/* Copyright and Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} NanoNerds. All rights reserved.
+            © {new Date().getFullYear()} Kidtech Innovators. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-purple-300 text-sm transition-colors">Privacy Policy</a>
