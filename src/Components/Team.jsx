@@ -5,6 +5,7 @@ import peter from '../assets/peter.jpg';
 import billy from '../assets/billy1.jpg';
 import mary from '../assets/manager.jpg';
 import paul from '../assets/paul.jpg';
+import maureen from '../assets/maureen.jpg'
 
 const Team = () => {
   const teamMembers = [
@@ -39,6 +40,14 @@ const Team = () => {
       linkedin: "#",
       bio: "Develops interactive learning platforms.",
       skills: ["React", "EdTech", "Instructional Design", "UI/UX"]
+    },
+        {
+      name: "Maureen Wanjiku",
+      role: "Marketing and Finance",
+      image: maureen,
+      linkedin: "#",
+      bio: "Drives business growth through strategic marketing and financial planning.",
+      skills: ["Digital Marketing", "Financial Analysis", "Brand Strategy", "Budgeting"]
     }
   ];
 
