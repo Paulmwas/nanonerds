@@ -13,7 +13,7 @@ const Team = () => {
       name: "Peter Kirumba",
       role: "Full stack, Embedded Systems",
       image: peter,
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/peter-kirumba-20a25628a/",
       bio: "Expert in IoT systems and web development with 8+ years experience.",
       skills: ["JavaScript", "Python", "Embedded C", "React", "Node.js"]
     },
@@ -37,7 +37,7 @@ const Team = () => {
       name: "Paul Mwangi",
       role: "Curriculum Development",
       image: paul,
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/paul-mwangi-software/",
       bio: "Develops interactive learning platforms.",
       skills: ["React", "EdTech", "Instructional Design", "UI/UX"]
     },
@@ -45,7 +45,7 @@ const Team = () => {
       name: "Maureen Wanjiku",
       role: "Marketing and Finance",
       image: maureen,
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/maureen-wanjiku-356a6734a/",
       bio: "Drives business growth through strategic marketing and financial planning.",
       skills: ["Digital Marketing", "Financial Analysis", "Brand Strategy", "Budgeting"]
     }
