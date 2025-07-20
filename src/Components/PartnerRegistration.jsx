@@ -30,7 +30,7 @@ const PartnerRegistration = () => {
         'service_dc1z5ks', 
         'template_yx3ye0s', 
         formRef.current, 
-        'Byzsej9CGvGUM6QlW'
+        '_jOF64g1FXY7Y9cvd'
       );
       
       setSubmitStatus('success');
